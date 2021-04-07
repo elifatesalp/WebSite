@@ -1,2 +1,2 @@
 ### WEBSİTE
-ELİF ATEŞALP 191522017 BİLGİSAYAR MÜHENDiSLİĞİ (İÖ) 2. SINIF 
+Elif Ateşalp 191522017 Bilgisayar Mühendisliği 2. sınıf 2. öğretim
