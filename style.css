@@ -45,7 +45,7 @@ header
    font-family: sans-serif;
    min-height: 100%;
    min-width: 1024px;
-   margin-top: 50px;
+   margin-top: -20px;
    background-image: url("img/arkaplan.jpg");
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -54,13 +54,12 @@ header
 }
 #makale-baslik
 {
-    color:hsl(303, 81%, 44%);
-    font-size:50px;
-    margin-bottom: -50px;
+    color:rgb(82, 4, 78);
+    font-size:80px;
 }
 #makale-yazi
 {
-    font-size: 20px; 
+    font-size: 60px; 
     font-family: sans-serif;
     font-weight:bold;
     text-align: center;
@@ -72,7 +71,7 @@ header
    font-family: sans-serif;
    min-height: 100%;
    min-width: 1024px;
-   margin-top: 50px;
+   margin-top: -20px;
    background-image: url("img/arkaplan.jpg");
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -81,12 +80,12 @@ header
 }
 #tarihce-baslik
 {
-    color:hsl(303, 81%, 44%);
-    font-size:50px;
+    color:rgb(82, 4, 78);
+    font-size:80px;
 }
 #tarihce-yazi
 {
-    font-size: 20px; 
+    font-size: 60px; 
     font-family: sans-serif;
     font-weight:bold;
     text-align: center;
@@ -98,7 +97,7 @@ header
    font-family: sans-serif;
    min-height: 100%;
    min-width: 1024px;
-   margin-top: 50px;
+   margin-top: -20px;
    background-image: url("img/arkaplan.jpg");
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -107,42 +106,69 @@ header
 }
 #diller-baslik
 {
-    color:hsl(303, 81%, 44%);
-    font-size:50px;
+    color:rgb(82, 4, 78);
+    font-size:80px;
 }
 #diller-yazi
 {
-    font-size: 20px; 
+    font-size: 60px; 
     font-family: sans-serif;
     font-weight:bold;
     text-align: center;
 }
-.navbar.ul
+#kullanim-sayfa
+{
+   font-size: 22px;
+   font-weight: bold;
+   font-family: sans-serif;
+   min-height: 100%;
+   min-width: 1024px;
+   margin-top: -20px;
+   background-image: url("img/arkaplan.jpg");
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+#kullanim-baslik
+{
+    color:rgb(82, 4, 78);
+    font-size:80px;
+}
+#kullanim-yazi
+{
+    font-size: 60px; 
+    font-family: sans-serif;
+    font-weight:bold;
+    text-align: center;
+}
+ul
 { 
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color:  rgb(25, 161, 179);
 }
-.navbar.ul.li
+li
 {
     float: left;
 }
-.navbar ul li a
+li a
 {
-    display: inline-block;
-    padding:12px 14px;
-    background-color: #27ae60;
+    display: block;
     color: white;
+    text-align: center;
+    padding:14px 16px;    
     text-decoration:none;
 }  
-.navbar ul li a.active
+li a:hover:not(.active)
 {
-background-color: #f39c12; 
+background-color: hsl(187, 63%, 41%); 
 }
-.navbar ul li a:hover
+.active
 {
-    background: #6F1E51;
+    background-color: hsl(187, 63%, 41%);
 }
 .container.center
 {
