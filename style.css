@@ -2,103 +2,186 @@
     margin:0;
     padding:0;
 }
-body{
-font-family: 'Open Sans', sans-serif;
+header
+{
 
 }
-
-header{
-    width:100%; 
-    height:350px; 
-    background-color:#cd84f1;}
-.header{
-    width:960px; 
-    height: 350px; 
-    margin:0 auto;}
-.isim{
+.header
+{
+    
+}
+.anasayfa
+{
     float:left; 
     font-size: 100px; 
     font-weight:bold;
     color:#1e272e;
     margin-left:480px; 
     margin-top: -350px;
-    text-align: center;}
-
-.container{
-    width: 960px;
-    height:600px;
-    margin:0 auto;
-    border: 1px solid #ccc; 
-    background-color: #fff; 
-    margin-top:-200px; }
-.container.navbar{
+    text-align: center;
+}
+.container
+{
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url("img/arkaplan.jpg");
+}
+  .container.navbar
+{
     width: 100%; 
     height: 80px; 
-    background-color: #6F1E51; }
-
-.navbar.ul{ 
-    float: left; 
-    font-size: 50px;
-    margin-right:120px; 
-    margin-bottom:300px;
-    color: #6F1E51;
+    background-color: #6F1E51; 
+    border-style:solid;
 }
-.navbar.ul li{
-    list-style:none;
-    display:inline-block; 
-    margin: 0 8px;
-    line-height:100px;
-  
+#makale-sayfa
+{
+   font-size: 22px;
+   font-weight: bold;
+   font-family: sans-serif;
+   min-height: 100%;
+   min-width: 1024px;
+   margin-top: 50px;
+   background-image: url("img/arkaplan.jpg");
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 }
-.navbar ul li a{
-    color: rgb(68, 10, 51);
-    font-size: 100px;
-    margin-left:500px;
-    margin-bottom:900px;
-    font-family:sans-serif;    }
-
+#makale-baslik
+{
+    color:hsl(303, 81%, 44%);
+    font-size:50px;
+    margin-bottom: -50px;
+}
+#makale-yazi
+{
+    font-size: 20px; 
+    font-family: sans-serif;
+    font-weight:bold;
+    text-align: center;
+}
+#tarihce-sayfa
+{
+   font-size: 22px;
+   font-weight: bold;
+   font-family: sans-serif;
+   min-height: 100%;
+   min-width: 1024px;
+   margin-top: 50px;
+   background-image: url("img/arkaplan.jpg");
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+#tarihce-baslik
+{
+    color:hsl(303, 81%, 44%);
+    font-size:50px;
+}
+#tarihce-yazi
+{
+    font-size: 20px; 
+    font-family: sans-serif;
+    font-weight:bold;
+    text-align: center;
+}
+#diller-sayfa
+{
+   font-size: 22px;
+   font-weight: bold;
+   font-family: sans-serif;
+   min-height: 100%;
+   min-width: 1024px;
+   margin-top: 50px;
+   background-image: url("img/arkaplan.jpg");
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+#diller-baslik
+{
+    color:hsl(303, 81%, 44%);
+    font-size:50px;
+}
+#diller-yazi
+{
+    font-size: 20px; 
+    font-family: sans-serif;
+    font-weight:bold;
+    text-align: center;
+}
+.navbar.ul
+{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar.ul.li
+{
+    float: left;
+}
+.navbar ul li a
+{
+    display: inline-block;
+    padding:12px 14px;
+    background-color: #27ae60;
+    color: white;
+    text-decoration:none;
+}  
 .navbar ul li a.active
-.navbar ul li a:hover{
+{
+background-color: #f39c12; 
+}
+.navbar ul li a:hover
+{
     background: #6F1E51;
-    border-radius:2px;}
-
-.container.center{
+}
+.container.center
+{
     position:absolute;
     bottom:200%;
     left:50%;
     margin-bottom: 500px;
     font-family: sans-serif;
-   
 }
-
-.center h1{
+.center h1
+{
     color: rgb(56, 6, 48);
     font-size: 55px;
     margin-top: -500px;
     margin-left: 400px;
-    width: 800px;}
-
-.center.buttons{
+    width: 800px;
+}
+.center.buttons
+{
     margin-right: 100px;
     margin-bottom: 500px;
-    
-
 }
-.buttons button{
+.buttons button
+{
     margin-left: 400px;
     margin-bottom: 500px;
     height: 60px;
     width: 150px;
     font-size:20px;
     color:#bd8181;
-    border: solid 1px rgb(49, 5, 46);
-    
+    border: solid 1px rgb(49, 5, 46); 
 }
-
-footer{
-    width: 200%; 
-    height: 100px; 
-    background-color:#cd84f1; 
-    color:#fff;
-    
-}
+.footer
+{
+    background: #595959;
+    text-align: center;
+    color:#FFF;
+    position:fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+} 
