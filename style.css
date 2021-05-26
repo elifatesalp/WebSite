@@ -2,14 +2,7 @@
     margin:0;
     padding:0;
 }
-header
-{
 
-}
-.header
-{
-    
-}
 .anasayfa
 {
     float:left; 
@@ -17,11 +10,12 @@ header
     font-weight:bold;
     color:#1e272e;
     margin-left:480px; 
-    margin-top: -350px;
+    margin-top: 350px;
     text-align: center;
 }
-.container
+.banner
 {
+    background-image: url("img/arkaplan.jpg");
     min-height: 100%;
     min-width: 1024px;
     width: 100%;
@@ -29,14 +23,54 @@ header
     position: fixed;
     top: 0;
     left: 0;
-    background-image: url("img/arkaplan.jpg");
+    
 }
-  .container.navbar
+  .banner.baslik
 {
+    background-image: url("img/arkaplan.jpg");
     width: 100%; 
     height: 80px; 
     background-color: #6F1E51; 
     border-style:solid;
+}
+.container.center
+{
+    position:absolute;
+    text-align:center;
+    margin-bottom: 500px;
+    font-family: sans-serif;
+}
+.center h1
+{
+    color: rgb(56, 6, 48);
+    font-size: 80px;
+    width: 800px;
+}
+.center.buttons
+{
+    margin-right: 100px;
+    margin-bottom: 500px;
+}
+.buttons button
+{
+    margin-left: 400px;
+    margin-bottom: 500px;
+    height: 60px;
+    width: 150px;
+    font-size:20px;
+    color:#bd8181;
+    border: solid 1px rgb(49, 5, 46); 
+}
+.SosyalMedyaEntagrasyon
+{
+    width: 300px;
+    height: 500px;
+    border-style: none;
+    border-color: white;
+    float: left;
+    position: absolute;
+    bottom: 200px;
+    right: 30px;
 }
 #makale-sayfa
 {
@@ -54,8 +88,9 @@ header
 }
 #makale-baslik
 {
-    color:rgb(82, 4, 78);
-    font-size:80px;
+    color:rgb(144, 23, 155);
+    font-family: sans-serif;
+    font-size:60px;
 }
 #makale-yazi
 {
@@ -80,8 +115,9 @@ header
 }
 #tarihce-baslik
 {
-    color:rgb(82, 4, 78);
-    font-size:80px;
+    color:rgb(144, 23, 155);
+    font-family: sans-serif;
+    font-size:60px;
 }
 #tarihce-yazi
 {
@@ -106,8 +142,9 @@ header
 }
 #diller-baslik
 {
-    color:rgb(82, 4, 78);
-    font-size:80px;
+    color:rgb(144, 23, 155);
+    font-family: sans-serif;
+    font-size:60px;
 }
 #diller-yazi
 {
@@ -117,6 +154,33 @@ header
     text-align: center;
 }
 #kullanim-sayfa
+{
+   font-size: 22px;
+   font-weight:bold;
+   font-family: sans-serif;
+   min-height: 100%;
+   min-width: 1024px;
+   margin-top: -20px;
+   background-image: url("img/arkaplan.jpg");
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+#kullanim-baslik
+{
+    color:rgb(144, 23, 155);
+    font-family: sans-serif;
+    font-size:60px;
+}
+#kullanim-yazi
+{
+    font-size: 60px; 
+    font-family: sans-serif;
+    font-weight:bold;
+    text-align: center;
+}
+#anket-sayfa
 {
    font-size: 22px;
    font-weight: bold;
@@ -130,12 +194,13 @@ header
    -o-background-size: cover;
    background-size: cover;
 }
-#kullanim-baslik
+#anket-baslik
 {
-    color:rgb(82, 4, 78);
-    font-size:80px;
+    color:rgb(144, 23, 155);
+    font-family: sans-serif;
+    font-size:60px;
 }
-#kullanim-yazi
+#anket-yazi
 {
     font-size: 60px; 
     font-family: sans-serif;
@@ -164,42 +229,19 @@ li a
 }  
 li a:hover:not(.active)
 {
-background-color: hsl(187, 63%, 41%); 
+background-color: hsl(187, 63%, 24%); 
 }
 .active
 {
-    background-color: hsl(187, 63%, 41%);
+    background-color: hsl(186, 80%, 16%);
 }
-.container.center
+
+#tablo
 {
-    position:absolute;
-    bottom:200%;
-    left:50%;
-    margin-bottom: 500px;
     font-family: sans-serif;
-}
-.center h1
-{
-    color: rgb(56, 6, 48);
-    font-size: 55px;
-    margin-top: -500px;
-    margin-left: 400px;
-    width: 800px;
-}
-.center.buttons
-{
-    margin-right: 100px;
-    margin-bottom: 500px;
-}
-.buttons button
-{
-    margin-left: 400px;
-    margin-bottom: 500px;
-    height: 60px;
-    width: 150px;
-    font-size:20px;
-    color:#bd8181;
-    border: solid 1px rgb(49, 5, 46); 
+    font-size: 20px;
+    font-weight: bold;
+    color: hsl(246, 86%, 34%);
 }
 .footer
 {
