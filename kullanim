@@ -1,0 +1,61 @@
+<!DOCTYPE html>>
+<html lang="tr">
+       <head>
+              <meta charset="utf-8">
+              <title>Kişisel Web Sitesi</title>
+              <meta name="description" content="Kişisel Web Sitesi">
+              <meta name="keywords" content="kisisel,web,site,html,css,javascript,php,sql">
+              <link rel="stylesheet" href="style.css">
+              <script type="text/javascript" language="javascript" src="javascript.js"></script>
+       </head>
+       <body>
+              <div id="kullanim-sayfa">
+                     <header id="kullanim-yazi">
+                            <center><h1 id="kullanim-baslik">  KULLANIM ALANLARI  </h1></center>
+                     </header>
+
+                     <nav id="MENÜ">
+                            <ul>
+                                <li><a href="index.html">ANASAYFA</a></li>
+                                <li><a href="tarihce.html">TARİHÇE</a></li>
+                                <li><a href="makale.html">MAKALE</a></li>
+                                <li><a href="diller.html">DİLLER VE ÖZELLİKLERİ</a></li>
+                                <li><a href="kullanim.html">KULLANIM ALANLARI</a></li>
+                                <li><a href="anket.html">ANKET 📋</a></li>
+                                <li><a href="iletisim.html">İLETİŞİM 📞</a></li>
+                                <li><a href="arama.html">SİTE İÇİ ARAMA 🔍</a></li>
+                     </nav>
+
+                     <article id="kullanim-icerik">
+                            <div class="kullanim-yazi">
+                                <center><h2 style="color:purple"><br>PROGRAMLAMA DİLLERİ VE KULLANIM ALANLARI</h2></center>
+                                <center><br><br> PYTHON PROGRAMLAMA DİLİ <br><br>• Web Uygulamaları ve Masaüstü Arayüz Uygulamaları <br>• Bilimsel, Sayısal, Akademik Alanlarda  
+                                    <br>• Veri analizi ve Veri işlemede <br>• Makine Öğrenmesi
+                                   <br>• Ağ Programlama  <br>• Sistem Yönetimi <br>• Oyun Geliştirme <br>• Yapay Zeka <br>• Veritabanı <br>• Güvenlik  
+                                   <br><br> JAVA PROGRAMLAMA DİLİ <br><br>• Antivirüs programları, Adobe Reader uygulamalarda bulunduğu gibi, kullanıcılarının göremediği gömülü sistemlerde de Java kullanılmaktadır. 
+                                   <br>• Güvenilirliği yüksek olduğundan birçok kurumsal şirket uygulamalarında ve platformlarında Java kullanmaktadır.
+                                    <br>• Yaklaşık 3 milyar telefondaki birçok uygulama ve sistem Java ile yazıldığından Cep Telefonlarında Java kullanılmaktadır. <br>• İlk geliştirilme noktası olan
+                                    televizyonlarda da yer alan Java, 125 milyon televizyonda kullanılmaktadır. <br>• Telefondaki oyunlarda, 3D oyunlarda ve çoğu bilgisayar oyununda Java’nın sunduğu imkanlardan 
+                                    bolca yararlanmaktadır. <br>
+                                    <br><br> C PROGRAMLAMA DİLİ <br><br>• Grafik ve oyun yazılımları üretimde C dili kullanılır. <br>• Gömülü sistem olarak değerlendirilen çamaşır makinesi hesap makinesi gibi 
+                                    makineleri kodlaması C diliyle yapılmaktadır. <br>• Unix çekirdeği, Microsoft Windows programları, işletim sistemi uygulamaları ve android işletim sisteminin büyük bir bölümü C
+                                    programlama dili kullanılarak oluşturulmuştur. <br><br> C++ PROGRAMLAMA DİLİ <br><br>
+                                    <br>• Solidworks, Catia, Ansys, Matlab/Simulink gibi mühendislik uygulamaları <br>• Windows işletim sistemi(Kernel ve bazı düşük seviye kısımlar hariç) 
+                                    <br>• Grafik motorları(Unreal Engine, CryEngine, Unity)<br>• Veritabanı yönetim sistemleri(MySQL, MS-SQL) <br>• Bilgisayar oyunlarının büyük bir kısmı 
+                                    <br>• Donanım sürücülerinin bir kısmı <br>• İşletim sistemi kütüphaneleri <br>• Tensorflow (Backend) <br>• OpenCV
+                                    <br><br> C# PROGRAMLAMA DİLİ <br><br>• Windows Form Uygulamaları <br>• Web servisleri uygulamaları <br>• Web Uygulamaları <br>• Mobil uygulamalar <br>• Konsol Uygulamaları
+                                    <br>• Oyun Tasarlama <br>• DLL yazma <br><br> PHP DİLİ <br><br>• Web Tabanlı Veritabanı Uygulamaları (Forumlar, Sınav Sayfaları, Takip Sistemleri veya İçerik Yönetim Sistemleri)
+                                    <br>• Kullanıcı Etkileşimli Web Siteleri <br>• E- Posta Uygulamaları <br>• E-Ticaret Siteleri
+                                
+                                </div>     
+                        </article>
+       <footer>
+       
+          <center> <p><br><br>  Copyright @2021. Tüm Hakları Saklıdır.</p></center>
+    
+       </footer>
+                           
+       
+                     </div>
+              </body>
+       </html>
