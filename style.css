@@ -2,58 +2,12 @@
     margin:0;
     padding:0;
 }
-.container.center
-{
-    position:absolute;
-    text-align:center;
-    margin-bottom: 500px;
-    font-family: sans-serif;
-}
-.center h1
-{
-    color: rgb(56, 6, 48);
-    font-size: 80px;
-    width: 800px;
-}
-.center.buttons
-{
-    margin-right: 100px;
-    margin-bottom: 500px;
-}
-.buttons button
-{
-    margin-left: 400px;
-    margin-bottom: 500px;
-    height: 60px;
-    width: 150px;
-    font-size:20px;
-    color:#bd8181;
-    border: solid 1px rgb(49, 5, 46); 
-}
-.havadurumu
-{
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
-}
-#haberler
-{
-    float:right;
-    position: fixed;
-}
-#doviz
-{
-    position: fixed;
-    top: 30px;
-    right: 5px;
-}
 #anasayfa-sayfa
 {
    font-size: 22px;
    font-weight: bold;
-   font-family: sans-serif;
-   min-height: 100%;
+   font-family: Helvetica;
+   min-height: 200%;
    min-width: 1024px;
    margin-top: -20px;
    background-image: url("img/arkaplan.jpg");
@@ -65,21 +19,60 @@
 #anasayfa-baslik
 {
     color:#800040;
-    font-family: sans-serif;
-    font-size:70px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:75px;
+}
+#anasayfa-yazi
+{
+    font-size: 60px; 
+    font-family: Helvetica;
+    font-weight:bold;
+    text-align: center;
 }
 #anasayfa-icerik
 {
-    font-size:50px; 
-    font-family: sans-serif;
+    font-size:15px; 
     font-weight:bold;
-    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    width:65%;
+    height:110%;
+    background-image: url("img/arkaplan.jpg");
+    background-color:rgba(125, 198, 227, 0.137);
+    border: solid 4px #7dc6e3a8;
+}
+.haberler
+{
+    position: absolute;
+    
+}
+.arama
+{
+    position: relative;
+    margin-bottom: -1100px;
+}
+.döviz
+{
+    position: relative;
+    text-align: right 500px;
+    margin-bottom: -800px;
+}
+.hava-durumu
+{
+    position: relative;
+    margin-bottom: -650px;
+    left: -25px;
+}
+.takvim
+{
+    position: relative;
+    margin-bottom: 400px;
 }
 #tarihce-sayfa
 {
    font-size: 22px;
    font-weight: bold;
-   font-family: sans-serif;
+   font-family: Helvetica;
    min-height: 100%;
    min-width: 1024px;
    margin-top: -20px;
@@ -92,21 +85,34 @@
 #tarihce-baslik
 {
     color:#800040;
-    font-family: sans-serif;
-    font-size:60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50pt;
+    font-weight: bold;
 }
 #tarihce-yazi
 {
     font-size: 60px; 
-    font-family: sans-serif;
-    font-weight:bold;
+    font-family: Helvetica;
+    font-weight: bold;
     text-align: center;
+}
+#tarihce-icerik
+{
+    font-size:22px; 
+    font-weight:bold;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    height:100%;
+    background-color:rgba(185, 197, 202, 0.178);
+    border: solid 4px black;
 }
 #makale-sayfa
 {
    font-size: 22px;
    font-weight: bold;
-   font-family: sans-serif;
+   font-family: Helvetica;
    min-height: 100%;
    min-width: 1024px;
    margin-top: -20px;
@@ -119,21 +125,34 @@
 #makale-baslik
 {
     color:#800040;
-    font-family: sans-serif;
-    font-size:60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:50pt;
+    font-weight: bold;
 }
 #makale-yazi
 {
     font-size: 60px; 
-    font-family: sans-serif;
-    font-weight:bold;
+    font-family: Helvetica;
+    font-weight: bold;
     text-align: center;
+}
+#makale-icerik
+{
+    font-size:22px; 
+    font-weight:bold;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    height:100%;
+    background-color:rgba(185, 197, 202, 0.178);
+    border: solid 4px black;
 }
 #diller-sayfa
 {
    font-size: 22px;
    font-weight: bold;
-   font-family: sans-serif;
+   font-family: Helvetica;
    min-height: 100%;
    min-width: 1024px;
    margin-top: -20px;
@@ -146,21 +165,34 @@
 #diller-baslik
 {
     color:#800040;
-    font-family: sans-serif;
-    font-size:60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50pt;
+    font-weight: bold;
 }
 #diller-yazi
 {
     font-size: 60px; 
-    font-family: sans-serif;
-    font-weight:bold;
+    font-family: Helvetica;
+    font-weight: bold;
     text-align: center;
+}
+#diller-icerik
+{
+    font-size:22px; 
+    font-weight:bold;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    height:100%;
+    background-color:rgba(185, 197, 202, 0.178);
+    border: solid 4px black;
 }
 #kullanim-sayfa
 {
    font-size: 22px;
    font-weight:bold;
-   font-family: sans-serif;
+   font-family: Helvetica;
    min-height: 100%;
    min-width: 1024px;
    margin-top: -20px;
@@ -173,21 +205,33 @@
 #kullanim-baslik
 {
     color:#800040;
-    font-family: sans-serif;
-    font-size:60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50pt;
+    font-weight: bold;
 }
 #kullanim-yazi
 {
     font-size: 60px; 
-    font-family: sans-serif;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+#kullanim-icerik
+{
+    font-size:22px; 
     font-weight:bold;
-    text-align: center;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    height:100%;
+    background-color:rgba(185, 197, 202, 0.178);
+    border: solid 4px black;
 }
 #anket-sayfa
 {
    font-size: 22px;
    font-weight: bold;
-   font-family: sans-serif;
+   font-family: Helvetica;
    min-height: 100%;
    min-width: 1024px;
    margin-top: -20px;
@@ -200,27 +244,55 @@
 #anket-baslik
 {
     color:#800040;
-    font-family: sans-serif;
-    font-size:60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50pt;
+    font-weight: bold;
 }
-#anket-yazi
+#anket-yazi /* tepedeki menü */
 {
     font-size: 60px;
-    font-family: sans-serif;
-    font-weight:bold;
+    font-family: Helvetica;
+    font-weight: bold;
 }
-form 
+#anket-icerik
 {
-    margin:0 auto;
+    font-size:22px; 
+    font-weight:bold;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    height:90%;
+    background-color:rgba(185, 197, 202, 0.178);
+    border: solid 5px black;
+}
+#kutu
+{
+    text-align: left;
+    margin-left: -180px;
+}
+#bitir
+{
+    width: 150px;
+    height: 50px;
+    background: hsl(308, 25%, 65%);
+    color: black;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#bitir:hover
+{
+    opacity:.9;
 }
 #gönder 
 {
-    width:130px;
-    height:50px;
-    background: rgb(25, 161, 179);
+    width: 150px;
+    height: 50px;
+    background: hsl(308, 25%, 65%);
     color:black;
-    margin-top:20px;
-    cursor:pointer;
+    font-size: bold;
+    margin-top: 20px;
+    cursor: pointer;
 }
 #gönder:hover 
 {
@@ -228,18 +300,18 @@ form
 }
 input, textarea 
 {
-    width:400px;
-    height:25px;
+    width: 400px;
+    height: 25px;
     background:#efefef;
-    border:1px solid rgb(207, 207, 207);
-    padding:10px;
-    margin-top:3px;
-    font-size:0.9em;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 0.9em;
     color:#3a3a3a;
 }
 textarea 
 {
-    height:200px;
+    height: 200px;
     background-size: contain;
 }
 input:focus, textarea:focus 
@@ -248,29 +320,96 @@ input:focus, textarea:focus
 }
 #iletisim-sayfa
 {
-   font-size: 22px;
-   font-weight: bold;
-   font-family: sans-serif;
-   min-height: 100%;
-   min-width: 1024px;
-   margin-top: -20px;
-   background-image: url("img/diller.jpg");
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
+    font-size: 22px;
+    font-weight:bold;
+    font-family: Helvetica;
+    min-height: 100%;
+    min-width: 1024px;
+    margin-top: -20px;
+    background-image: url("img/diller.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #iletisim-baslik
 {
     color:#800040;
-    font-family: sans-serif;
-    font-size:60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50pt;
+    font-weight: bold;
 }
 #iletisim-yazi
 {
-    font-size: 60px;
-    font-family: sans-serif;
+    font-size: 60px; 
+    font-family: Helvetica;
+    font-weight: bold;
+}
+#iletisim-icerik
+{
+    font-size:22px; 
     font-weight:bold;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    height:100%;
+    background-color:rgba(185, 197, 202, 0.178);
+    border: solid 4px black;
+}
+#tablo2
+{
+    text-align: center;
+    border: solid 2px black;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+#tamam
+{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    color:black;
+    font-size: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#tamam:hover 
+{
+    opacity:.9;
+}
+#siteici-sayfa
+{
+    font-size: 22px;
+    font-weight:bold;
+    font-family: Helvetica;
+    min-height: 100%;
+    min-width: 1024px;
+    margin-top: -20px;
+    background-image: url("img/diller.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#siteici-baslik
+{
+    color:#800040;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50pt;
+    font-weight: bold;
+}
+#siteici-yazi
+{
+    font-size: 60px; 
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.sbutton
+{
+    background-color: hsla(244, 15%, 65%, 0.534);
+    color:black;
 }
 ul
 { 
@@ -294,44 +433,43 @@ li a
 }  
 li a:hover:not(.active)
 {
-  background-color: #800040;
+    background-color: #800040;
 }
 .active
 {
-  background-color: #800040;
+    background-color: #800040;
 }
 .sosyal-medya
 {
-text-align:center;
-font-family:sans-serif;
+    text-align:center;
+    font-family:Helvetica;
 }
 #container
 {
-display:flex;
-justify-content:center;
-padding:1px;
-align-items:center;
+    display:flex;
+    justify-content:center;
+    padding:1px;
+    align-items:center;
 }
 .sosyal-medya li 
 {
-display: inline-block;
+    display: inline-block;
 }
 .sosyal-medya li a 
 {
-font-size:45px;
-border-bottom: none;
+    text-align:center;
+    font-size:30px;
+    border-bottom: none;
 }
 .sosyal-medya img 
 {
-width: 50px;
-height:50px;
-margin-left: 100px;
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
 }
 .footer
 {
-    background-color: rgb(25, 161, 179);
-    padding: 0px;
-    position:fixed;
-    bottom: -50;
-    width: 100%;
+    font-size:35px;
+    width: 100%; 
+    text-align: center;
 } 
