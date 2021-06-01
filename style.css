@@ -7,7 +7,7 @@
    font-size: 22px;
    font-weight: bold;
    font-family: Helvetica;
-   min-height: 200%;
+   min-height: 210%;
    min-width: 1024px;
    margin-top: -20px;
    background-image: url("img/arkaplan.jpg");
@@ -19,8 +19,9 @@
 #anasayfa-baslik
 {
     color:#800040;
-    font-family:'Times New Roman', Times, serif;
-    font-size:75px;
+    font-family:"Comic Sans MS";
+    font-size:50pt;
+    font-weight: bold;
 }
 #anasayfa-yazi
 {
@@ -33,40 +34,34 @@
 {
     font-size:15px; 
     font-weight:bold;
+    margin-top: 20px;
     margin-left:auto;
     margin-right:auto;
-    width:65%;
-    height:110%;
+    width:73%;
+    height:130%;
     background-image: url("img/arkaplan.jpg");
     background-color:rgba(125, 198, 227, 0.137);
     border: solid 4px #7dc6e3a8;
 }
 .haberler
 {
-    position: absolute;
-    
+    position: relative;
+    margin-bottom: 450px;
 }
 .arama
 {
     position: relative;
-    margin-bottom: -1100px;
+    margin-bottom: -1630px;
 }
 .döviz
 {
     position: relative;
-    text-align: right 500px;
-    margin-bottom: -800px;
+    margin-bottom: -990px;
 }
 .hava-durumu
 {
     position: relative;
-    margin-bottom: -650px;
-    left: -25px;
-}
-.takvim
-{
-    position: relative;
-    margin-bottom: 400px;
+    margin-bottom: 780px;
 }
 #tarihce-sayfa
 {
@@ -85,7 +80,7 @@
 #tarihce-baslik
 {
     color:#800040;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:"Comic Sans MS";
     font-size: 50pt;
     font-weight: bold;
 }
@@ -125,7 +120,7 @@
 #makale-baslik
 {
     color:#800040;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Comic Sans MS";
     font-size:50pt;
     font-weight: bold;
 }
@@ -165,7 +160,7 @@
 #diller-baslik
 {
     color:#800040;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Comic Sans MS";
     font-size: 50pt;
     font-weight: bold;
 }
@@ -205,7 +200,7 @@
 #kullanim-baslik
 {
     color:#800040;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Comic Sans MS";
     font-size: 50pt;
     font-weight: bold;
 }
@@ -214,6 +209,7 @@
     font-size: 60px; 
     font-family: Helvetica;
     font-weight: bold;
+    text-align: center;
 }
 #kullanim-icerik
 {
@@ -244,15 +240,16 @@
 #anket-baslik
 {
     color:#800040;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Comic Sans MS";
     font-size: 50pt;
     font-weight: bold;
 }
 #anket-yazi /* tepedeki menü */
 {
-    font-size: 60px;
+    font-size: 60px; 
     font-family: Helvetica;
     font-weight: bold;
+    text-align: center;
 }
 #anket-icerik
 {
@@ -262,9 +259,9 @@
     margin-left:auto;
     margin-right:auto;
     width:90%;
-    height:90%;
+    height:100%;
     background-color:rgba(185, 197, 202, 0.178);
-    border: solid 5px black;
+    border: solid 4px black;
 }
 #kutu
 {
@@ -335,7 +332,7 @@ input:focus, textarea:focus
 #iletisim-baslik
 {
     color:#800040;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Comic Sans MS";
     font-size: 50pt;
     font-weight: bold;
 }
@@ -344,6 +341,7 @@ input:focus, textarea:focus
     font-size: 60px; 
     font-family: Helvetica;
     font-weight: bold;
+    text-align: center;
 }
 #iletisim-icerik
 {
@@ -396,7 +394,7 @@ input:focus, textarea:focus
 #siteici-baslik
 {
     color:#800040;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:"Comic Sans MS";
     font-size: 50pt;
     font-weight: bold;
 }
@@ -405,11 +403,63 @@ input:focus, textarea:focus
     font-size: 60px; 
     font-family: Helvetica;
     font-weight: bold;
+    text-align: center;
 }
-.sbutton
+#siteici-icerik
 {
-    background-color: hsla(244, 15%, 65%, 0.534);
-    color:black;
+    font-size:18px; 
+    font-weight:bold;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    height:100%;
+    background-color:rgba(185, 197, 202, 0.178);
+    border: solid 4px black;
+}
+.aramaButton
+{
+    border: solid 5px black;
+}
+#galeri-sayfa
+{
+    font-size: 22px;
+    font-weight:bold;
+    font-family: Helvetica;
+    min-height: 100%;
+    min-width: 1024px;
+    margin-top: -20px;
+    background-image: url("img/diller.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#galeri-baslik
+{
+    color:#800040;
+    font-family: "Comic Sans MS";
+    font-size: 50pt;
+    font-weight: bold;
+}
+#galeri-yazi
+{
+    font-size: 60px; 
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+}
+#galeri-icerik
+{
+    font-size:18px; 
+    font-weight:bold;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    height:100%;
+    background-color:rgba(185, 197, 202, 0.178);
+    border: solid 4px black;
 }
 ul
 { 
@@ -431,7 +481,7 @@ li a
     padding:16px 18px;    
     text-decoration:none;
 }  
-li a:hover:not(.active)
+li a:hover
 {
     background-color: #800040;
 }
@@ -467,9 +517,9 @@ li a:hover:not(.active)
     height: 50px;
     margin-left: 100px;
 }
-.footer
+footer
 {
     font-size:35px;
-    width: 100%; 
+    font-weight: bold;
     text-align: center;
 } 
