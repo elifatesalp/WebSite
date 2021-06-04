@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <html>
-       <?php
+<body>
 
-
+<?php
 if (isset($_POST['submit'])){
     print_r($_POST);
 
@@ -12,5 +13,5 @@ else
     echo "MESAJINIZ GÖNDERİLEMEDİ! LÜTFEN TEKRAR DENEYİNİZ.";
 }
    ?>
-   
+</body>
    </html>   
