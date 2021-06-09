@@ -403,7 +403,7 @@ input:focus, textarea:focus
     border-width: 4px;
     border-color: black;
 }
-#tablo2
+#görüs
 {
     text-align: center;
     border-style: solid;
@@ -590,17 +590,18 @@ li a:active
 }
 table
 {
-    background:gray;
+    background:hsla(244, 15%, 65%, 0.534);
     border-spacing: 10px;
     text-align: center;
     border-style: solid;
     border-width: 5px;
-    border-color: black; 
+    border-color: black;
+   
 }
 table .btn
 {
     width: 60px;
-    background: gray;
+    background: hsla(244, 15%, 65%, 0.534);
     text-align: center;
     border-style: solid;
     border-width: 2px;
@@ -628,8 +629,35 @@ table .btn
 }
 #islem
 {
-    background: #78ddb3;
+    background: rgba(167, 162, 223, 0.534);
     border-style:none;
+}
+.hataphp
+{
+    padding: 15px;
+    background: red;
+    padding-left: 15px;
+    color: white;
+    margin-top: 20px;
+    font: bolder 30px Arial;
+}
+.gorushataphp
+{
+    padding: 15px;
+    background: red;
+    padding-left: 15px;
+    color: white;
+    margin-top: 20px;
+    font: bolder 30px Arial;
+}
+.aramahata
+{
+    padding: 15px;
+    background: red;
+    padding-left: 15px;
+    color: white;
+    margin-top: 20px;
+    font: bolder 30px Arial;
 }
 footer
 {
@@ -638,4 +666,3 @@ footer
     font-weight: bold;
     text-align: center;
 } 
-
