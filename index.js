@@ -38,8 +38,8 @@ function epostaDogrula(theform) //eposta adresindeki yanlış karater girince uy
   }
 
 
- function hesap()
-{
+ function hesap(){
+
 var optDurum=false, opt="", sonuc=0; //hesap makinesi icin değişkenler
 
 var btnRakam=document.querySelectorAll(".btnRakam");
@@ -143,7 +143,4 @@ btnNokta.onclick=funstion(e)
     }
     optDurum=false;
 }
-
-} 
-
-
+}
