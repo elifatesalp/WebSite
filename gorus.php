@@ -10,7 +10,7 @@ if (isset($_POST['submit'])){
 }
 else
 {
-    echo "GÖRÜŞLERİNİZi İLLETİĞİNİZ İÇİN TEŞEKKÜR EDERİZ!";
+    echo "GÖRÜŞLERİNİZİ İLLETİĞİNİZ İÇİN TEŞEKKÜR EDERİZ!";
 }
    ?>
 </body>
