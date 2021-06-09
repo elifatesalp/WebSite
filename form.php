@@ -4,13 +4,12 @@
 
 <?php
 if (isset($_POST['submit'])){
-    print_r($_POST);
-
-    echo "MESAJINIZ BAŞARIYLA GÖNDERİLMİŞTİR! BOL ŞANSLAR DİLERİZ!";
+   
+    echo "MESAJINIZ GÖNDERİLEMEDİ! LÜTFEN TEKRAR DENEYİNİZ";
 }
 else
 {
-    echo "MESAJINIZ GÖNDERİLEMEDİ! LÜTFEN TEKRAR DENEYİNİZ.";
+    echo "MESAJINIZ BAŞARIYLA GÖNDERİLMİŞTİR! BOL ŞANSLAR DİLERİZ!";
 }
    ?>
 </body>
