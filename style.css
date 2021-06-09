@@ -16,6 +16,7 @@
    -o-background-size: cover;
    background-size: cover;
 }
+
 #anasayfa-baslik
 {
     color:#800040;
@@ -24,6 +25,7 @@
     font-weight: bold;
     text-align: center;
 }
+
 #anasayfa-yazi
 {
     font-size: 60px; 
@@ -31,6 +33,7 @@
     font-weight:bold;
     text-align: center;
 }
+
 #anasayfa-icerik
 {
     width: 996px;
@@ -68,6 +71,7 @@
     position: relative;
     margin-bottom: 780px;
 }
+
 #tarihce-sayfa
 {
    font-size: 22px;
@@ -82,6 +86,7 @@
    -o-background-size: cover;
    background-size: cover;
 }
+
 #tarihce-baslik
 {
     color:#800040;
@@ -90,6 +95,7 @@
     font-weight: bold;
     text-align: center;
 }
+
 #tarihce-yazi
 {
     font-size: 60px; 
@@ -97,6 +103,7 @@
     font-weight: bold;
     text-align: center;
 }
+
 #tarihce-icerik
 {
     width: 996px;
@@ -113,6 +120,7 @@
     border-width: 4px;
     border-color: black;
 }
+
 #makale-sayfa
 {
    font-size: 22px;
@@ -127,6 +135,7 @@
    -o-background-size: cover;
    background-size: cover;
 }
+
 #makale-baslik
 {
     color:#800040;
@@ -135,6 +144,7 @@
     font-weight: bold;
     text-align: center;
 }
+
 #makale-yazi
 {
     font-size: 60px; 
@@ -142,6 +152,7 @@
     font-weight: bold;
     text-align: center;
 }
+
 #makale-icerik
 {
     width: 996px;
@@ -158,6 +169,7 @@
     border-width: 4px;
     border-color: black;
 }
+
 #diller-sayfa
 {
    font-size: 22px;
@@ -172,6 +184,7 @@
    -o-background-size: cover;
    background-size: cover;
 }
+
 #diller-baslik
 {
     color:#800040;
@@ -180,6 +193,7 @@
     font-weight: bold;
     text-align: center;
 }
+
 #diller-yazi
 {
     font-size: 60px; 
