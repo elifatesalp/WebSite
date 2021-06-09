@@ -5,13 +5,12 @@
 
 <?php
 if (isset($_POST['submit'])){
-    print_r($_POST);
 
-    echo "GÖRÜŞLERİNİZ BAŞARIYLA GÖNDERİLMİŞTİR! TEŞEKKÜR EDERİZ!";
+    echo "GÖRÜŞLERİNİZ GÖNDERİLEMEDİ! LÜTFEN TEKRAR DENEYİNİZ.";
 }
 else
 {
-    echo "GÖRÜŞLERİNİZ GÖNDERİLEMEDİ! LÜTFEN TEKRAR DENEYİNİZ.";
+    echo "GÖRÜŞLERİNİZi İLLETİĞİNİZ İÇİN TEŞEKKÜR EDERİZ!";
 }
    ?>
 </body>
