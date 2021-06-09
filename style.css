@@ -16,7 +16,6 @@
    -o-background-size: cover;
    background-size: cover;
 }
-
 #anasayfa-baslik
 {
     color:#800040;
@@ -25,7 +24,6 @@
     font-weight: bold;
     text-align: center;
 }
-
 #anasayfa-yazi
 {
     font-size: 60px; 
@@ -33,7 +31,6 @@
     font-weight:bold;
     text-align: center;
 }
-
 #anasayfa-icerik
 {
     width: 996px;
@@ -71,7 +68,6 @@
     position: relative;
     margin-bottom: 780px;
 }
-
 #tarihce-sayfa
 {
    font-size: 22px;
@@ -86,7 +82,6 @@
    -o-background-size: cover;
    background-size: cover;
 }
-
 #tarihce-baslik
 {
     color:#800040;
@@ -95,7 +90,6 @@
     font-weight: bold;
     text-align: center;
 }
-
 #tarihce-yazi
 {
     font-size: 60px; 
@@ -103,7 +97,6 @@
     font-weight: bold;
     text-align: center;
 }
-
 #tarihce-icerik
 {
     width: 996px;
@@ -120,7 +113,6 @@
     border-width: 4px;
     border-color: black;
 }
-
 #makale-sayfa
 {
    font-size: 22px;
@@ -135,7 +127,6 @@
    -o-background-size: cover;
    background-size: cover;
 }
-
 #makale-baslik
 {
     color:#800040;
@@ -144,7 +135,6 @@
     font-weight: bold;
     text-align: center;
 }
-
 #makale-yazi
 {
     font-size: 60px; 
@@ -152,7 +142,6 @@
     font-weight: bold;
     text-align: center;
 }
-
 #makale-icerik
 {
     width: 996px;
@@ -169,7 +158,6 @@
     border-width: 4px;
     border-color: black;
 }
-
 #diller-sayfa
 {
    font-size: 22px;
@@ -184,7 +172,6 @@
    -o-background-size: cover;
    background-size: cover;
 }
-
 #diller-baslik
 {
     color:#800040;
@@ -193,7 +180,6 @@
     font-weight: bold;
     text-align: center;
 }
-
 #diller-yazi
 {
     font-size: 60px; 
@@ -550,12 +536,10 @@ ul
     background-color:  hsla(244, 15%, 65%, 0.534);
 }
 li
-
 {
     float: left;
 }
 li a
-
 {
     display: block;
     color: black;
@@ -564,23 +548,19 @@ li a
     text-decoration:none;
 }  
 li a:hover
-
 {
     background-color: #800040;
 }
-li :active
-
+li a:active
 {
     background-color: #800040;
 }
 .sosyal-medya
-
 {
     text-align:center;
     font-family:Helvetica;
 }
 #container
-
 {
     display:flex;
     justify-content:center;
@@ -588,27 +568,74 @@ li :active
     align-items:center;
 }
 .sosyal-medya li 
-
 {
     display: inline-block;
 }
 .sosyal-medya li a 
-
 {
     text-align:center;
     font-size:30px;
     border-bottom: none;
 }
-
 .sosyal-medya img 
 {
     width: 50px;
     height: 50px;
     margin-left: 100px;
 }
+.hesap
+{
+    width:360px;
+    margin:auto;
+}
+table
+{
+    background:gray;
+    border-spacing: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black; 
+}
+table .btn
+{
+    width: 60px;
+    background: gray;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    line-height: 60px;
+    color: #fff;
+    font-size: 1.5em;
+    font-family: Helvetica;
+}
+#islem, #gosterge
+{
+    padding:5px;
+    text-align: right;
+}
+#gosterge
+{
+    height: 60px;
+    background: #ddfafa;
+    color:#333;
+    font-size: 1.8em;
+    text-align: right;
+    line-height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#islem
+{
+    background: #78ddb3;
+    border-style:none;
+}
 footer
 {
     font-size:35px;
+    font-family: Helvetica;
     font-weight: bold;
     text-align: center;
 } 
+
