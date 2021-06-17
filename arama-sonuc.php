@@ -19,7 +19,7 @@
     while($yazi=mysqli_fetch_array($yazilari_ara))
 
     {
-           
+
         $anasayfa=$yaz['anasayfa'];
         $tarihce=$yaz['tarihce'];
         $makale=$yaz['makale'];
@@ -29,6 +29,7 @@
         $iletisim=$yaz['iletisim'];
         $anket=$yaz['galeri'];
         $siteici=$yaz['siteici'];
+        
     }
      ?>
     
@@ -38,11 +39,11 @@
     ?> 
      <?php 
     {
-         "Aramak için bir şeyler yazmalısınız";
+        echo "Aramak için bir şeyler yazmalısınız";
     } 
-           
+
     $conn->close(); ?>
 
     </body>
-       
+
 </html>
