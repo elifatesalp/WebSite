@@ -51,7 +51,7 @@
 .haberler
 {
     position: relative;
-    margin-bottom: 450px;
+    margin-bottom: 470px;
 }
 .arama
 {
@@ -317,7 +317,7 @@
 }
 #gonder 
 {
-    width: 150px;
+    width: 300px;
     height: 50px;
     background: hsl(308, 25%, 65%);
     color:black;
