@@ -17,7 +17,7 @@ Oluşturduğum Web Sitesi, Programlama Dilleri ile ilgili genel bir bilgi vermek
 
 ➥ Anket kısmında programlama bilginizi ölçen 10 soruluk bir anket ve İletişim Formu yer almaktadır.
 
-➥ İletişim kısmında Sosyal Medya Entegrasyonu, Google Maps, Görüş ve Öneriler için de iletişim formu yer almaktadır.
+➥ İletişim kısmında Sosyal Medya Entegrasyonu, Google Maps, Görüş ve Öneriler formu yer almaktadır.
 
 ➥ Galeri kısmında Programlama dilleri ve yazılım ile ilgili fotoğraflar, gifler ve videolar yer almaktadır.
 
@@ -29,13 +29,13 @@ Oluşturduğum Web Sitesi, Programlama Dilleri ile ilgili genel bir bilgi vermek
 ➤ HTML ile;
 
 Web sitemin temel iskeletini HTML ile tasarladım.
-Sitemde yer alan tüm metinleri, bilgileri HTML ile oluşturdum.
+Sitemde yer alan tüm metinleri, bilgileri, tabloları ve Anasayfada yer alan site içi yönlendirmeleri HTML ile oluşturdum.
 
 ➤ CSS ile; 
 
 HTML'de yazdığım kodlara CSS ile şekil verdim.
 Sayfadaki başlık ve yazıların boyutunu, stilini, renklerini; 
-Sayfa düzenini ve arka plan tasarımını CSS ile şekillendirdim. 
+Sayfa düzeni ve arka plan tasarımını CSS ile şekillendirdim. 
 
 ➤ JavaScript ile;
 
@@ -46,9 +46,11 @@ Anasayfada yer alan Haberler, Finans Verileri, Google üzerinden arama ve Hava D
 ➤ PHP ile;
                                   
 HTML ile oluşturup, CSS ile şekil verdiğim ve JavaScript ile hareket kazandırdığım sayfaya PHP ile dinamik bir yapı kazandırdım. 
-İletişim kısmındaki Görüş & Öneriler ve Anket kısmındaki İletişim Formlarının, derlenip çıkan sonucun mesajla kullanıcıya iletilmesini sağladım. 
+İletişim kısmındaki Görüş & Öneriler ve Anket kısmındaki İletişim Formlarının, derlenip çıkan sonucun mesajla kullanıcıya iletilmesini sağladım. Aynı zamanda site içi arama 
+yapmak için oluşturduğum veri tabanını bağlamak için de bir PHP dosyası oluşturdum.
 
 ➤ SQL ile;
 
 HTML ile oluşturup, CSS ile şekil verdiğim, JavaScript ile hareket, PHP ile dinamik bir yapı kazandırdığım sayfaya, SQL ile de verileri modelleyerek yönetmeyi sağladım.
 SQL ile sayfadaki tüm verilerin aktarıldığı bir veritabanı oluşturdum. Bu veritabanının PHP ile bağlantısını kurararak kullanıcının sitede site içi arama yapmasını sağladım.
+Kullanıcı arama yaptığında ilk olarak veri tabanıyla bağlantı kurup daha sonra arama yapılıyor.
