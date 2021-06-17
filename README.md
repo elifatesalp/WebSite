@@ -24,6 +24,8 @@ Oluşturduğum Web Sitesi, Programlama Dilleri ile ilgili genel bir bilgi vermek
 ➥ Site İçi Arama kısmında arama yapmak için arama kutucuğu, Animasyon alanında da hesap makinesi yer almaktadır.
 
 
+
+
 ➤ HTML ile;
 
 Web sitemin temel iskeletini HTML ile tasarladım.
