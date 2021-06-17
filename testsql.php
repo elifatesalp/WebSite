@@ -4,13 +4,13 @@
     
 <?php
 
-$sunucu = "localhost";
+$host = "localhost";
 $user = 'root';
-$password = ''; 
+$password = 'root'; 
 $database = 'arama'; 
 $port = NULL; 
 
-$mysqli = new mysqli('127.0.0.1', $sunucu, $user, $password, $database, $port);
+$mysqli = new mysqli('127.0.0.1', $host, $user, $password, $database, $port);
 
 if ($mysqli->connect_error) 
 {
