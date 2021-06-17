@@ -632,33 +632,6 @@ table .btn
     background: rgba(167, 162, 223, 0.534);
     border-style:none;
 }
-.hataphp
-{
-    padding: 15px;
-    background: red;
-    padding-left: 15px;
-    color: white;
-    margin-top: 20px;
-    font: bolder 30px Arial;
-}
-.gorushataphp
-{
-    padding: 15px;
-    background: red;
-    padding-left: 15px;
-    color: white;
-    margin-top: 20px;
-    font: bolder 30px Arial;
-}
-.aramahata
-{
-    padding: 15px;
-    background: red;
-    padding-left: 15px;
-    color: white;
-    margin-top: 20px;
-    font: bolder 30px Arial;
-}
 footer
 {
     font-size: 35px;
