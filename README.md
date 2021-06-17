@@ -6,13 +6,21 @@ Oluşturduğum Web Sitesi, Programlama Dilleri ile ilgili genel bir bilgi vermek
 ➜ Web sitesinin menüsünde Anasayfa, Tarihçe, Makale, Diller ve Özellikleri, Kullanım Alanları, Anket, İletişim, Fotoğraf/Video Galeri, Site içi Arama kısımları yer almaktadır.
 
 ➥ Anasayfada, Web Sitesi hakkında kısa bilgiler, Haberler, Finans Verileri, Hava Durumu ve Google üzerinden arama kısımları yer almaktadır. 
+
 ➥ Tarihçe kısmında, Programlama Dillerinin yıllar içindeki değişimi ve hangi programlama dilinin hangi yılda kullanılmaya başlandığı hakkındaki bilgiler yer almaktadır.
+
 ➥ Makale kısmında Programlama Dilleri ile ilgili yazılmış makaleler ve Programlama Dillerinin kullanım oranları yer almaktadır.
+
 ➥ Diller ve Özellikleri kısmında en çok kullanılan 6 programlama dilinin (Java, Python, C, C++, C#, PHP) ve HTML'in özellikleri hakkında bilgiler yer almaktadır.
+
 ➥ Kullanım Alanları kısmında en çok kullanılan 6 programlama dilinin kullanım alanları ve bu dillerle yazılmış proje/uygulamalar hakkında bilgiler yer almaktadır.
+
 ➥ Anket kısmında programlama bilginizi ölçen 10 soruluk bir anket ve İletişim Formu yer almaktadır.
-➥ İletişim kısmında Sosyal Medya Entegrasyonu, Google Maps, Görüş ve Önerileriniz için de iletişim formu yer almaktadır.
+
+➥ İletişim kısmında Sosyal Medya Entegrasyonu, Google Maps, Görüş ve Öneriler için de iletişim formu yer almaktadır.
+
 ➥ Galeri kısmında Programlama dilleri ve yazılım ile ilgili fotoğraflar, gifler ve videolar yer almaktadır.
+
 ➥ Site İçi Arama kısmında arama yapmak için arama kutucuğu, Animasyon alanında da hesap makinesi yer almaktadır.
 
 
