@@ -61,13 +61,17 @@ var btnNokta=document.querySelector(".btnNokta");
 
  btnRakam.forEach(function(element)
  {
+
     element.onclick = function(e)
+
     {
 
        if(gosterge.textContent=="0" || optDurum)
+
        {
        gosterge.textContent="";
        }
+
       gosterge.textContent=this.textContent;
       optDurum=false;
     }
@@ -97,11 +101,13 @@ var btnNokta=document.querySelector(".btnNokta");
  });
 
 btnC.onclick=function(e)
+
 {
    gosterge.textContent="0";
 }
 
 btnCE.onclick=function(e)
+
 {
    gosterge.textContent="0";
    islem.textContent="";
@@ -110,9 +116,11 @@ btnCE.onclick=function(e)
 }
 
 btnEsit.onclick=function(e)
+
 {
    islem.textContent="";
    optDurum=true;
+
    switch(opt)
       {
              case "+":gosterge.textContent=(sonuc + Number(gosterge.textContent)); break;
@@ -121,6 +129,7 @@ btnEsit.onclick=function(e)
              case "/":gosterge.textContent=(sonuc / Number(gosterge.textContent)); break;
              default:break;
        }
+
        sonuc=Number(gosterge.textContent);
        gosterge.textContent=sonuc;
        sonuc=0;
@@ -128,6 +137,7 @@ btnEsit.onclick=function(e)
 }
 
 btnNokta.onclick=funstion(e)
+
 {
     if(!optDurum && !gosterge.textContent.includes("."))  
     {
@@ -142,5 +152,6 @@ btnNokta.onclick=funstion(e)
            gosterge.textContent+=".";
     }
     optDurum=false;
+    
 }
 }
