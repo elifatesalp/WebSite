@@ -1,5 +1,6 @@
 <!DOCTYPE html>>
 <html lang="tr">
+
        <head>
         <meta charset= "utf8"> 
         <title> Sonuç | Arama Motoru  </title>
@@ -7,6 +8,7 @@
        </head>
     <body>
 <?php
+
     include("testsql.php");
     
     $aranan = $_POST["aranan"];
@@ -29,6 +31,6 @@
          "Aramak için bir şeyler yazmalısınız";
     } 
     $conn->close(); ?>
+    
     </body>
 </html>
-
