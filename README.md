@@ -28,14 +28,13 @@ Oluşturduğum Web Sitesi, Programlama Dilleri ile ilgili genel bir bilgi vermek
 
 ➤ HTML ile;
 
-Web sitemin temel iskeletini HTML ile tasarladım.
-Sitemde yer alan tüm metinleri, bilgileri, tabloları ve Anasayfada yer alan site içi yönlendirmeleri HTML ile oluşturdum.
+Web sitemin temel iskeletini HTML ile oluşturdum.
+Sitemde yer alan içerikleri, metinleri, tabloları ve Anasayfada yer alan site içi yönlendirmeleri HTML ile oluşturdum.
 
 ➤ CSS ile; 
 
 HTML'de yazdığım kodlara CSS ile şekil verdim.
-Sayfadaki başlık ve yazıların boyutunu, stilini, renklerini; 
-Sayfa düzeni ve arka plan tasarımını CSS ile şekillendirdim. 
+Sayfadaki metinlerin ve başlıkların yazı tipini, yazı boyutunu, renklerini; Sayfadaki konumlandırma işlemlerini, arka plan tasarımını CSS ile şekillendirdim. 
 
 ➤ JavaScript ile;
 
@@ -45,9 +44,10 @@ Anasayfada yer alan Haberler, Finans Verileri, Google üzerinden arama ve Hava D
 
 ➤ PHP ile;
                                   
-HTML ile oluşturup, CSS ile şekil verdiğim ve JavaScript ile hareket kazandırdığım sayfaya PHP ile dinamik bir yapı kazandırdım. 
-İletişim kısmındaki Görüş & Öneriler, Anket kısmındaki Anket ve İletişim Formunun verilerinin derlenip, çıkan sonucun bir mesajla kullanıcıya iletilmesini sağladım. Aynı zamanda site içi arama yapabilmek için SQL ile oluşturduğum veri tabanını bağlayacağım bir PHP oluşturdum.
+HTML ile oluşturup, CSS ile şekil verdiğim ve JavaScript ile hareket kazandırdığım sayfaya PHP ile de dinamik bir yapı kazandırdım. 
+İletişim kısmındaki Görüş & Öneriler, Anket kısmındaki Anket ve İletişim Formunun verilerinin sunucu tarafından derlenip, çıkan sonucun bir mesajla kullanıcıya iletilmesini sağladım. Aynı zamanda site içi arama yapabilmek için SQL ile oluşturduğum veri tabanını bağlayacağım bir PHP oluşturdum.
 
 ➤ SQL ile;
 
-HTML ile oluşturup, CSS ile şekil verdiğim, JavaScript ile hareket, PHP ile de dinamik bir yapı kazandırdığım sayfaya, SQL kullanarak da verileri modelleyerek yönetmeyi sağladım. SQL ile sayfadaki tüm verilerin aktarıldığı bir veritabanı oluşturdum. Bu veritabanının PHP ile bağlantısını kurararak kullanıcının, sitede site içi arama yapmasını sağladım. Kullanıcı arama yaptığında ilk olarak veri tabanıyla bağlantı kurulup daha sonra aradığı kelimeye göre arama işlemi gerçekleştiriliyor.
+HTML ile oluşturup, CSS ile şekil verdiğim, JavaScript ile hareket, PHP ile de dinamik bir yapı kazandırdığım sayfaya, SQL kullanarak da verileri modelleyerek yönetmeyi sağladım. 
+SQL ile sayfadaki tüm verilerin aktarıldığı bir veritabanı oluşturdum. Bu veritabanının PHP ile bağlantısını kurararak kullanıcının, sitede site içi arama yapmasını sağladım. Kullanıcı arama yaptığında ilk olarak veri tabanıyla bağlantı kurulup daha sonra aradığı kelimeye göre arama işlemi gerçekleştiriliyor.
